@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16 px 'Roboto', sans-serif; */
+
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 025);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 6em; */
+    /* position: relative; */
+    
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+    /* min-height: 10em; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 50%; */
+    /* min-height: 10em; */
+    /* display: block; */
+    /* vertical-align: middle; */
+    /* position: absolute; */
+    /* top: 17%; */
+
+}
+
+.info-text h2 {
+    margin-bottom: auto;
+}
+
+.info-photo {
+    /* width: 50%; */
+    display: block;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: inline-block; */
+    /* margin-left: 30%;
+    margin-right: 30%; */
+}
+
+.btn-download {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.contact ul {
+    list-style-type: square;
+    color: #86898f;
+    margin: 0;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+}
+
+.contact {
+    display: flex
+    /* float: left; */
+    /* width: 50%; */
+    /* box-sizing: border-box; */
+    /* background: rgba(2, 121, 38, 0.863); */
+    /* padding: 15px 20px; */
+    /* margin: 5px; */
+    /* border: 5px solid red; */
+    /* border-style: dotted; */
+    /* padding: 15px 20px; */
+    /* background: red; */
+    /* margin-bottom: 20px; */
+    /* border-radius: 20px; */
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+/* .about p {
+    
+} */
+
+/* Box Model */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+    
+}
+
+.list li {
+    /* color: #86898f; */
+    /* margin-bottom: 10px; */
+
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    text-align: left;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table th:nth-child(1) {
+    color: #86898f;
+}
+
+/* .table tr:nth-child(even) {
+    background: rgb(247, 199, 199);
+} */
+
+.additional-list {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+/* Position */
+
+/* .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+} */
